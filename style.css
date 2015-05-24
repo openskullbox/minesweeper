@@ -1,0 +1,54 @@
+.form-elem {
+	display: inline-block;
+	*zoom: 1;
+    *display: inline;
+	margin: 20px 10px;
+}
+.form-elem > .form-label {
+	display: inline-block;
+	*zoom: 1;
+    *display: inline;
+	width: 130px;
+}
+.form-elem > select {
+	width: 200px;
+	padding: 5px 10px;
+}
+
+.main-table {
+	margin: 20px;
+	text-align: center;
+}
+.mine-row {
+	padding: 0;
+	margin: 0;
+	height: 31px;
+}
+.mine-cell {
+	display: inline-block;
+	*zoom: 1;
+    *display: inline;
+	width: 10px;
+	height: 10px;
+	background: #CCC;
+	color: #CCC;
+	padding: 10px;
+	margin: 0;
+	border: 1px solid #EEE;
+	border-bottom: none;
+	cursor: pointer;
+}
+.mine-cell.active {
+	background: #FFF;
+	cursor: not-allowed;
+}
+.mine-cell.bomb {
+	background: url(mine.png) no-repeat center;
+}
+.mine-cell.no-bomb {
+	background: url(wrong.png) no-repeat center;
+}
+
+#support-data {
+	display: none;
+}

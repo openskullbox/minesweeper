@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script type="text/javascript" src="app.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<span class="form-elem">
+			<span class="form-label">Grid rows : </span>
+			<select id="rows">
+				<option value="8" selected>8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+			</select>
+		</span>
+		<span class="form-elem">
+			<span class="form-label">Grid columns : </span>
+			<select id="cols">
+				<option value="8" selected>8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+			</select>
+		</span>
+		<span class="form-elem">
+			<span class="form-label">Number of bombs : </span>
+			<select id="bomb">
+				<option value="5">5</option>
+				<option value="10" selected>10</option>
+				<option value="20">20</option>
+				<option value="30">30</option>
+				<option value="40">40</option>
+				<option value="50">50</option>
+			</select>
+		</span>
+		<span class="form-elem"><button id="start">Start Game</button></span>
+		<div id="support-data">
+			<span class="form-elem">
+				<span class="form-label">Time :</span><span id="time">00:00</span>
+				<span class="form-label">Flags :</span><span id="flag-count">10</span>
+			</span>
+		</div>
+		<div id="main-table"></div>
+	</body>
+</html>
